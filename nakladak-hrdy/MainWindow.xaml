@@ -1,0 +1,21 @@
+﻿<Window x:Class="nakladak_hrdy.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:nakladak_hrdy"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="text1" HorizontalAlignment="Left" Height="414" Margin="10,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="175"/>
+        <TextBox x:Name="text2" HorizontalAlignment="Left" Height="414" Margin="615,0,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Center" Width="175"/>
+        <Button x:Name="vyložit1" Content="Vyložit" HorizontalAlignment="Left" Height="30" Margin="295,145,0,0" VerticalAlignment="Top" Width="100" Click="vyložit1_Click"/>
+        <Button x:Name="NaložitN" Content="Naložit" HorizontalAlignment="Left" Height="30" Margin="190,145,0,0" VerticalAlignment="Top" Width="100" Click="NaložitN_Click"/>
+        <Button x:Name="NatankovatN" Content="Natankovat" HorizontalAlignment="Left" Height="30" Margin="190,110,0,0" VerticalAlignment="Top" Width="100" Click="NatankovatN_Click"/>
+        <Button x:Name="JetN" Content="Jet" HorizontalAlignment="Left" Height="30" Margin="295,110,0,0" VerticalAlignment="Top" Width="100" Click="JetN_Click"/>
+        <Button x:Name="vyložiz2" Content="Vyložit" HorizontalAlignment="Left" Height="30" Margin="405,145,0,0" VerticalAlignment="Top" Width="100" Click="vyložiz2_Click"/>
+        <Button x:Name="NaložitA" Content="Naložit" HorizontalAlignment="Left" Height="30" Margin="510,145,0,0" VerticalAlignment="Top" Width="100" Click="NaložitA_Click" RenderTransformOrigin="0.543,-1.409"/>
+        <Button x:Name="NatankovatA" Content="Natankovat" HorizontalAlignment="Left" Height="30" Margin="510,110,0,0" VerticalAlignment="Top" Width="100" Click="NatankovatA_Click"/>
+        <Button x:Name="JetA" Content="Jet" HorizontalAlignment="Left" Height="30" Margin="405,110,0,0" VerticalAlignment="Top" Width="100" Click="JetA_Click"/>
+    </Grid>
+</Window>
